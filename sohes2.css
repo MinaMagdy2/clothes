@@ -1,0 +1,174 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+.pic1{
+    
+    background-image: url(images/shoes14.jpg);
+    border-image-width:50% ;
+   
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+   float: left;
+    width: 33.333%;
+    height: 500px;
+    box-sizing: border-box;
+
+    
+}
+.p1{
+    border: 1px solid;
+    
+    width: 34%;
+    height: 35px;
+   margin:85% 0% 0% 37%;
+   
+   background-color: #2a157582;
+   text-align: center;
+   font-style: oblique;
+   font-variant: bold;
+   box-sizing: border-box;
+  
+}
+.pic1:hover{
+    background-image: url(images/shoes.jpg);
+    width: 33.33333%;
+    height: 500px;
+}
+.pic2{
+    background-image: url(images/shoes14.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+   float: left;
+ 
+    width: 33.33333%;
+    height: 500px;
+    box-sizing: content-box;
+
+}
+.pic2:hover{
+    background-image: url(images/shoes1.jpg);
+    width: 33.33333%;
+    height: 500px;
+}
+.pic3{
+    background-image: url(images/shoes3.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+   float: left;
+    width: 33.33333%;
+    height: 500px;
+    box-sizing: content-box;
+
+}
+.pic3:hover{
+    background-image: url(images/shoes4.jpg);
+    width: 30%;
+    height: 500px;
+}
+.pic4{
+    background-image: url(images/shoes5.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+   float: left;
+    width: 33.33333%;
+    height: 500px;
+   
+}
+.pic4:hover{
+    background-image: url(images/shoes6.jpg);
+    width: 33.33333%;
+    height: 500px;}
+
+.pic5{
+    background-image: url(images/shoes7.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+   float: left;
+   
+    width: 33.33333%;
+    height: 500px;
+   
+}
+.pic5:hover{
+    background-image: url(images/shoes8.jpg);
+    width: 33.33333%;
+    height: 500px;
+}
+.pic6{
+    background-image: url(images/shoes9.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+   float: left;
+
+    width: 32%;
+    height: 500px;
+   
+}
+.pic6:hover{
+    background-image: url(images/shoes10.jpg);
+    width: 32%;
+    height: 500px;
+}
+.pre{
+   
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+@media screen and (max-width:400px) {
+    .pre{margin-top: 10px;}
+    .pic1{width: 100%;}
+    .pic2{width: 100%;}
+    .pic3{width: 100%;}
+    .pic1:hover{width: 100%;}
+    .pic4{width: 100%;}
+    .pic2:hover{width: 100%;}
+    .pic5{width: 100%;}
+    .pic5:hover{width: 100%;}
+    .pic6{width: 100%;}
+    .pic6:hover{width: 100%;}
+
+
+    
+}
+@media screen and (min-width:400px) {
+    .pic1{width: 50%;}
+    .pic2{width: 49%;}
+    .pic3{width: 50%;}
+    .pic1:hover{width: 50%;}
+    .pic4{width: 49%;}
+    .pic2:hover{width: 49%;}
+    .pic5{width: 50%;}
+    .pic5:hover{width: 50%;}
+    .pic6{width: 49%;}
+    .pic6:hover{width: 49%;}
+
+
+    
+}
+
+@media screen and (min-width:700px) {
+    .pic1{width: 33.33333%;}
+    .pic2{width: 33.33333%;}
+    .pic3{width: 32.5%;}
+    .pic1:hover{width: 33.3333%;}
+    .pic4{width: 33.3333%;}
+    .pic2:hover{width: 33.3333%;}
+    .pic5{width: 33.33333%;}
+    .pic5:hover{width: 33.33333%;}
+    .pic6{width: 32.5%;}
+    .pic6:hover{width: 32.5%;}
+
+
+    
+}

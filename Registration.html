@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+    <link rel="stylesheet" href="Registration.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body style="background-image: url(images/home.webp);">
+
+	
+		
+		
+	<form action="submit.php" method="post">
+		<h1 stylye="" style="text-align: center;color: brown;">User Registration</h1>
+		<label for="username">Username:</label>
+		<input type="text" name="username" id="username" required><br>
+
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required><br>
+
+		<label for="'password" >Password:</label>
+		<input type="password" name="password" id="numb"  class="numb" required><br>
+		
+		<label for="confirm_password">Confirm Password:</label>
+		<input type="password" name="confirm_password" id="confirm_password" required><br>
+		<p id="a" style="color: red;font-size: larger;/*! text-align: ; */margin-left: 42px;margin-top: -3px;font-size: 29px;"></p>
+        <button  type="button" onclick="myFunction()" >Submit</button>
+	</form>
+	<script>
+        function myFunction() {
+            var x, text ,y ;
+	    y=document.getElementById('confirm_password').value
+        x = document.getElementById("numb").value
+        if ( x.length < 8 ) {
+                text = "password less then 8 please try again";} 
+		else if(x !==y ){
+				text = "password not match"; 
+			
+			}
+		
+        else { text=window.location.href="login.html  " }
+            document.getElementById("a").innerHTML = text; }
+		
+        </script>
+		<script> 
+		$("#my-link").on('click',function(){
+			  window.location.href = "home.html";
+			});
+		   </script>
+		   <script>
+		   $('#numb').mouseenter(function () {
+			$('.numb').css( 'background-color','blue')
+		   })  
+		</script>
+		<script>
+			$('#numb').mouseleave(function () {
+			 $('.numb').css( 'background-color','white')
+			})  
+		 </script>
+</body>
+</html>
